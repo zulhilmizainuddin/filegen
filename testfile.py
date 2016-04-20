@@ -5,7 +5,7 @@ def parse_args():
     parser = argparse.ArgumentParser(description='Generate file of any size')
 
     parser.add_argument('-n', '--name', type=str, help='File name', required=True)
-    parser.add_argument('-s', '--size', type=int, help='File size', required=True)
+    parser.add_argument('-s', '--size', type=int, help='File size in bytes', required=True)
 
     args = parser.parse_args()
 
