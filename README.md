@@ -1,9 +1,9 @@
-# testfile
+# filegen
 Python script for generating files of any size. Useful for generating test files.
 
 ## Usage
 ```
-usage: testfile.py [-h] -n NAME -s SIZE
+usage: filegen.py [-h] -n NAME -s SIZE
 
 Generate file of any size
 
